@@ -1,0 +1,33 @@
+======
+README
+======
+ScribbishPyB is an adaptation of the Scribbish(http://quotedprintable.com/pages/scribbish) theme for PyBlosxom, authored by Christy John (http://christyjohn.org). I'm inspired by Kenny Pitt (http://pittcrew.net/geekblog/scribbishwp/) who has already ported this for wordpress.
+
+Installation
+============
+
+1. Place the ``html.flav`` directory in the ``flavourdir`` specified in your ``config.py`` file.
+
+2. Copy the ``scribbish.css`` file to a directory that is served by your webserver.
+
+3. Edit ``head.html`` and change the ``href`` attribute value in the line::
+
+    <link rel="stylesheet" type="text/css" href="/styles/scribbish.css" />
+
+   to the url that the ``scribbish.css`` file will be served from.
+   
+4. Copy the ''background.gif'' and change the attribute value in the css file in the code::
+
+	background: url(/images/background.gif) repeat-x left top;
+	
+	to the url that the ``background.gif`` image will be served from.
+	
+5. Don't add  <heading> tags fort blog titles in your blog post. this can create errors while validating.
+
+
+
+NB: This is version 0.1 of ScribbishPyB. The css isn't rendering the blog as in the Scribbish or ScribbishWP packages. I'm
+currently working on it and the issue will be solved in the subsequent releases. This themes is released under the 
+MIT license (http://www.opensource.org/licenses/mit-license.php) as the original Scribbish package is released.
+However the author find it helpful if the changes to the packages are notified to him so that he can learn more from your approach.
+
