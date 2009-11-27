@@ -450,6 +450,11 @@ body {
   font-size: 11px; width: 92%;
 }
 
+/* Validation and licence buttons */
+#misc a:hover {
+  background-color: #fff;
+}
+
 /*--------------------------------------------------------------
  Footer
  --------------------------------------------------------------*/
